@@ -1,6 +1,5 @@
-# iface_kg_bot
-Telegram bot for iFace.kg
-/ (корень)
+# @iFace_kg_bot
+Telegram bot for iFace.kg AI Bot/ (корень)
  ├─ index.js
  import express from 'express';
 import axios from 'axios';
