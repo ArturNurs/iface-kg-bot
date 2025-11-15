@@ -1,4 +1,4 @@
-# iface-kg-bot
+# iface_kg_bot
 Telegram bot for iFace.kg
 / (корень)
  ├─ index.js
