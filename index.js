@@ -9,7 +9,7 @@ const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
 
 // Set webhook
 app.get('/', (req, res) => {
-  res.send('@iFace_kg_bot is running');
+  res.send('iFace_kg_bot is running');
 });
 
 app.post('/api/webhook', async (req, res) => {
@@ -21,7 +21,7 @@ app.post('/api/webhook', async (req, res) => {
   const text = message.text;
 
   if (text === '/start') {
-    await sendMessage(chatId, '👋 Добро пожаловать в iFace.kg!\n\nВыберите действие:', [
+    await sendMessage(chatId, '👋 Добро пожаловать в iFace.kg AI Bot!\n\nВыберите действие:', [
       [{ text: '✨ Сделать заказ', callback_data: 'order' }],
       [{ text: '📩 Написать в Instagram', url: 'https://www.instagram.com/iface.kg' }]
     ]);
