@@ -1,11 +1,6 @@
 {
-  "version": 2,
+  "version": 3,
   "routes": [
-    {
-      "src": "/api/webhook",
-      "dest": "/index.js",
-      "methods": ["POST"]
-    },
     {
       "src": "/(.*)",
       "dest": "/index.js"
