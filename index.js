@@ -9,7 +9,7 @@ const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
 
 // Set webhook
 app.get('/', (req, res) => {
-  res.send('iFace.kg Bot is running');
+  res.send('@iFace_kg_bot is running');
 });
 
 app.post('/api/webhook', async (req, res) => {
