@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const TOKEN = process.env.BOT_TOKEN;
-const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
+const TELEGRAM_API = `https://api.telegram.org/bot{7642720725:AAGfz9VgXqKsaJ6RbDdXuy5B0SWEvtqu8BY}`;
 
 // Set webhook
 app.get('/', (req, res) => {
